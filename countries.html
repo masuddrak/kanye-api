@@ -8,13 +8,20 @@
     <style>
         .card{
             background-color: aquamarine;
+            margin: 20px;
+            padding: 10px;
+        }
+        #container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
         }
     </style>
 </head>
 <body>
     <h1>Countries API</h1>
+    <div id="countryDetails"></div>
     <div id="container">
-
+        
     </div>
     <button onclick="loadData()">countries</button>
     <script src="countries.js"></script>
